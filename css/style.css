@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    font-family: 'Onest';
+}
+
+.header {
+    display: flex;
+    padding-left: 13px;
+    padding-right: 16px;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 12px;
+}
+
+.header-profile {
+    display: flex;
+    align-items: center;
+}
+
+.header-profile-name {
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 15px;
+}
+
+.content {
+    box-sizing: border-box;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 26px;
+}
+
+.page-name {
+    font-weight: 800;
+    font-size: 36px;
+    margin-left: 4px;
+}
+
+.page-name-subtitle {
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 9px;
+    margin-left: 4px;
+    margin-bottom: 25px;
+    color: #4E564F;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 24px;
+    margin-bottom: 17px;
+}
+
+.test-card {
+    background-image: url('/img/card-backgroungd.svg');
+    background-size: cover;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-icon-container {
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A6113;
+    border-radius: 18px;
+    margin-right: 10px;
+}
+
+.card-icon {
+    width: 26px;
+    height: 26px;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 17px;
+    color: #F4FAF5;
+}
+
+.card-content {
+    font-weight: 700;
+    font-size: 17px;
+    color: #F4FAF5;
+    margin-bottom: 17px;
+}
+
+.card-bottom {
+    text-align: end;
+    font-weight: 300;
+    color: #B9DEBE;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 22px;
+}
+
+.menu-item>img {
+    width: 26px;
+    height: 26px;
+}
