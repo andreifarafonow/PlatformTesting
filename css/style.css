@@ -65,7 +65,7 @@ body {
 }
 
 .test-card {
-    background-image: url('/img/card-backgroungd.svg');
+    background-image: url('img/card-backgroungd.svg');
     background-size: cover;
 }
 
