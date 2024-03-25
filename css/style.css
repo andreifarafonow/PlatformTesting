@@ -1,17 +1,26 @@
 body {
     margin: 0px;
     font-family: 'Onest';
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
     display: flex;
     padding-left: 13px;
-    padding-right: 16px;
-    margin-top: 8px;
+    padding-right: 32px;
+    padding-top: 8px;
+    padding-bottom: 10px;
     margin-left: 8px;
-    margin-right: 8px;
     justify-content: space-between;
     box-sizing: border-box;
+    max-width: 1536px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
 }
 
 .logo {
@@ -43,6 +52,16 @@ body {
     margin-top: 26px;
 }
 
+.content {
+    box-sizing: border-box;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+
+
+
 .page-name {
     font-weight: 800;
     font-size: 35.5px;
@@ -58,10 +77,15 @@ body {
     color: #4E564F;
 }
 
+.cards-grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 20px;
+}
+
 .card {
     padding: 20px;
     border-radius: 24px;
-    margin-bottom: 17px;
 }
 
 .test-card {
@@ -117,9 +141,63 @@ body {
     width: 100%;
     bottom: 0;
     padding-bottom: 22px;
+    background-color: white;
+    padding-top: 22px;
 }
 
 .menu-item>img {
     width: 26px;
     height: 26px;
+}
+
+.menu-item-name {
+    display: none;
+}
+
+
+
+@media (min-width: 1280px) {
+    .header {
+        padding-top: 14px;
+        padding-right: 32px;
+    }
+
+    .content {
+        margin-left: 280px;
+        margin-bottom: 20px;
+    }
+
+    .menu {
+        left: 16px;
+        top: 66px;
+        bottom: auto;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding-top: 0px;
+    }
+
+    .menu-item {
+        display: flex;
+        align-items: center;
+        height: 60px;
+    }
+
+    .menu-item-name {
+        display: block;
+        font-weight: 500;
+        font-size: 17px;
+        margin-left: 13px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .menu {
+        left: calc((100% - 1536px) / 2 + 16px);
+    }
+
+    .header {
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
 }
