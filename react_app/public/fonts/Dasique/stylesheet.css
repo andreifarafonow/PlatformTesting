@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Dasique';
+    src: url('DasiqueRegular.eot');
+    src: local('Dasique'), local('DasiqueRegular'),
+        url('DasiqueRegular.eot?#iefix') format('embedded-opentype'),
+        url('DasiqueRegular.woff2') format('woff2'),
+        url('DasiqueRegular.woff') format('woff'),
+        url('DasiqueRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

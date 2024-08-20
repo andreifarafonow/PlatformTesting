@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Regione';
+    src: url('Regione.eot');
+    src: local('Regione'),
+        url('Regione.eot?#iefix') format('embedded-opentype'),
+        url('Regione.woff2') format('woff2'),
+        url('Regione.woff') format('woff'),
+        url('Regione.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
